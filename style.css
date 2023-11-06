@@ -7,10 +7,16 @@ body {
 }
 .container {
     width: 100%;
-    min-width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
+    box-sizing: border-box;
     padding: 0 260px;
 }
+
+.center {
+   
+}
+
 .header {
     height: 123px;
 }
@@ -18,7 +24,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 27px;
+    margin: 27px auto;
+    max-width: 100%;
 }
 .icon-img {
     width: 70px;
@@ -38,6 +45,10 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 15px;
+}
+.header-item a {
+    text-decoration: none;
+    color: #292D32;
 }
 .search {
     margin-left: 50px;
