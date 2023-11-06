@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 100%;
+    min-width: 1920px;
+    margin: 0 auto;
+    padding: 0 260px;
+}
+.header {
+    height: 123px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 27px;
+}
+.icon-img {
+    width: 70px;
+    height: 70px;
+}
+
+.header-items {
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 60px;
+    gap: 45px;
+    width: 534px;
+    height: 18px;
+}
+.header-item {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+}
+.search {
+    margin-left: 50px;
+}
+.header-right {
+    margin-left: 380px;
+    display: flex;
+    gap: 30px;
+}
+.header-right-item {
+    width: 49px;
+    height: 49px;
+}
+.first-block {
+    background-color: #F2F2F2;
+    height: 683px;
+}
+.first-container {
+    display: flex;
+    position: relative;
+}
+.scroll {
+    padding-top: 357px;
+    text-align: center;
+    width: 25px;
+    height: 168px;
+}
+.scroll-text span {
+    writing-mode: vertical-lr;
+    transform:rotate(180deg);
+    font-weight: 300;
+    font-size: 16px;
+    color: #838383;
+}
+.scroll-image {
+    margin-top: 17px;
+}
+.first-main {
+    margin-left: 105px;
+}
+.main-text {
+    padding-top: 253px;
+    height: 157px;
+}
+.main-text-top {
+    font-weight: 300;
+    font-size: 18px;
+    color: #838383;
+    height: 24px;
+    width: 163px;
+}
+.main-text-title {
+    width: 446px;
+    height: 118px;
+    font-weight: 400;
+    font-size: 50px;
+    color: #292D32;
+    text-align: left;
+    padding-top: 15px;
+}
+.main-button {
+    margin-top: 60px;
+    height: 55px;
+    width: 150px;
+}
+.main-image {
+    margin-top: 74px;
+    width: 557px;
+    height: 555px;
+    margin-left: -42px;
+}
+.dots {
+    position: absolute;
+    left: 1042px;
+    top: 500px;
+}
+.first-slider {
+    margin-left: 60px;
+    position: relative;
+}
+.slider {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.vector-slider {
+    z-index: 10;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    width: 105px;
+    height: 21px;
+}
+.slider-text {
+    z-index: 20;
+    position: absolute;
+    top: 321px;
+    left: 50px;
+    font-weight: 400;
+    font-size: 25px;
+    width: 181px;
+    height: 96px;
+}
