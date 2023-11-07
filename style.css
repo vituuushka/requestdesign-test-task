@@ -12,19 +12,11 @@ body {
     box-sizing: border-box;
     padding: 0 260px;
 }
-
-.center {
-   
-}
-
-.header {
-    height: 123px;
-}
 .nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 27px auto;
+    height: 123px;
     max-width: 100%;
 }
 .icon-img {
