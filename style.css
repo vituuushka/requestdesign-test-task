@@ -7,7 +7,7 @@ body {
 }
 .container {
     width: 100%;
-    max-width: 1920px;
+    max-width: 1920px; 
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0 260px;
@@ -17,7 +17,7 @@ body {
     flex-direction: row;
     align-items: center;
     height: 123px;
-    max-width: 100%;
+    width: 100%;
 }
 .icon-img {
     width: 70px;
