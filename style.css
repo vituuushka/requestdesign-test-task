@@ -247,6 +247,127 @@ body {
     font-weight: 100;
     color: #292D32;
 }
+.our-advantages {
+    margin-top: 180px;
+    background-color: #F2F2F2;
+}
+.advanvantages-top {
+    display: flex;
+    
+}
+.adv-top-image {
+    width: 874px;
+    height: 492px;
+    margin-left: 180px;
+    margin-top: 87px;
+}
+.adv-top-text {
+    margin-top: 183px;
+}
+.adv-top-title {
+    color: #292D32;
+font-size: 50px;
+font-weight: 400;
+line-height: 50px;
+}
+.adv-top-subtitle {
+    margin-top: 37px;
+    color: #838383;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+}
+.adv-button {
+    display: flex;
+}
+.adv-btn-circle {
+    width: 55px;
+    height: 55px;
+    background-image: url(./images/adv-btn.png);
+    background-repeat: no-repeat;
+    /* text-align: center;
+    vertical-align: middle; */
+    color: white;
+font-size: 18.74px;
+font-weight: 700;
+line-height: 35.14px;
+}
+.adv-btn-text {
+    color: #292D32;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+}
+.advantages-items {
+    display: flex;
+    gap: 27px;
+}
+.adv-item {
+    margin-top: 48px;
+    margin-bottom: 46px;
+    background: #292D32;
+    border-radius: 20px;
+    width: 330px;
+    height: 289px;
+    position: relative;
+}
+.adv-image {
+    background: #343A41; 
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.adv-icon {
+    margin-top: 17px;
+    margin-left: 17px;
+    width: 36px;
+    height: 36px;
+}
+.adv-item-title {
+    margin-top: 25px;
+    margin-left: 30px;
+    color: white;
+font-size: 22px;
+font-weight: 700;
+height: 56px;
+}
+.adv-item-subtitle {
+    margin-top: 13px;
+    margin-left: 30px;
+    color: #B7B7B7;
+font-size: 16px;
+font-weight: 300;
+width: 276px;
+height: 60px;
+}
+.adv-item-title.card-1 {
+    width: 205px;
+}
+.adv-item-title.card-2 {
+    width: 276px;
+}
+.adv-item-title.card-1 {
+    width: 278px;
+}
+.adv-item-title.card-1 {
+    width: 263px;
+}
+.adv-item-subtitle.subtitle-1,
+.adv-item-subtitle.subtitle-2 {
+    width: 276px;
+}
+.adv-item-subtitle.subtitle-3 {
+    width: 270px;
+}
 
-
+.adv-item-subtitle.subtitle-4 {
+    width: 263px;
+}
+.adv-item-blue {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
