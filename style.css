@@ -495,3 +495,97 @@ font-size: 10px;
 font-weight: 300;
 
 }
+.contacts-top-bg {
+    position: relative;
+    background-color: #F2F2F2;
+    height: 526px;
+}
+.contacts-bottom-bg {
+    height: 676px;
+    background-image: url('./images/contacts-bg-image.png');
+}
+.contacts-container {
+    position: absolute;
+    z-index: 100;
+    top: 180px;
+    left: 260px;
+    display: flex;
+    width: 100%;
+    height: 842px;
+}
+.white-block {
+    padding-left: 100px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    background-color: #F9F9F9; 
+    height: 842px;
+    width: 700px;
+    border-radius: 20px 0 0 20px;
+}
+.black-block {
+    background-color: #292D32;
+    height: 842px;
+    width: 700px;
+    border-radius:  0 20px 20px 0 ;
+}
+.white-block-title {
+    color: #292D32;
+font-size: 50px;
+font-weight: 400;
+line-height: 50px;
+}
+.white-block-subtitle {
+    margin-top: 18px;
+    color: #838383;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.white-item {
+    display: flex;
+    align-items: center;
+}
+.white-item-text {
+margin-left: 17px;
+color: #838383;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.06px;
+}
+.white-item-name {
+    margin-left: 56px;
+    color: #292D32;
+font-size: 22px;
+font-weight: 400;
+line-height: 33px;
+}
+.white-item.adress {
+    margin-top: 53px;
+}
+.white-item.email {
+    margin-top: 57px;
+}
+.white-item.phone {
+    margin-top: 77px;
+}
+.white-item-name.adress-name {
+    width: 358px;
+    height: 66px;
+}
+.white-item-name.email-name {
+    width: 188px;
+    height: 33px;
+}
+.white-item-name.phone-name {
+    width: 205px;
+    height: 66px;
+}
+.white-item img {
+    height: 36px;
+    width: 36px;
+}
+.white-social-image {
+    margin-top: 66px;
+    width: 94px;
+    height: 78px;
+}
