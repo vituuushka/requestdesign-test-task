@@ -372,7 +372,6 @@ height: 60px;
 }
 .news {
     padding-top: 172px;
-    background-color: #F2F2F2;
 }
 .news-top {
     display: flex;
@@ -403,6 +402,7 @@ width: 721px;
     position: relative;
     background-color: white;
     border-radius: 40px 0 40px 0;
+    filter: drop-shadow(0px 40px 80px rgba(0, 0, 0, 0.05));
 }
 .news-item-image {
     z-index: 5;
@@ -494,4 +494,196 @@ font-weight: 900;
 font-size: 10px;
 font-weight: 300;
 
+}
+.contacts-bottom-bg {
+    position: relative;
+    margin-top: 526px;
+    height: 676px;
+    width: 1920px;
+    background-color: #EEEEEE;
+    background-image: url('./images/contacts-bg.png');
+    background-repeat: no-repeat;
+    background-position: 0 184px;
+}
+.contacts-up {
+    position: absolute;
+    top: -346px;
+}
+.contacts-container {
+    
+    display: flex;
+    width: 100%;
+    height: 842px;
+}
+.white-block {
+    padding-left: 100px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    background-color: #F9F9F9; 
+    height: 842px;
+    width: 700px;
+    border-radius: 20px 0 0 20px;
+}
+.contacts-image {
+    position: absolute;
+    top: 142px;
+    left: 760px;
+    width: 167px;
+    height: 545px;
+}
+
+.white-block-title {
+    color: #292D32;
+font-size: 50px;
+font-weight: 400;
+line-height: 50px;
+}
+.white-block-subtitle {
+    margin-top: 18px;
+    color: #838383;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.white-item {
+    display: flex;
+    align-items: center;
+}
+.white-item-text {
+margin-left: 17px;
+color: #838383;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.06px;
+}
+.white-item-name {
+    margin-left: 56px;
+    color: #292D32;
+font-size: 22px;
+font-weight: 400;
+line-height: 33px;
+}
+.white-item.adress {
+    margin-top: 53px;
+}
+.white-item.email {
+    margin-top: 57px;
+}
+.white-item.phone {
+    margin-top: 77px;
+}
+.white-item-name.adress-name {
+    width: 358px;
+    height: 66px;
+}
+.white-item-name.email-name {
+    width: 188px;
+    height: 33px;
+}
+.white-item-name.phone-name {
+    width: 205px;
+    height: 66px;
+}
+.white-item img {
+    height: 36px;
+    width: 36px;
+}
+.white-social-image {
+    margin-top: 66px;
+    width: 94px;
+    height: 78px;
+}
+.black-block {
+    background-color: #292D32;
+    height: 842px;
+    width: 700px;
+    border-radius:  0 20px 20px 0 ;
+    box-sizing: border-box;
+    padding-left: 129px;
+    padding-top: 100px;
+    padding-right: 129px;
+}
+.black-title {
+    color: white;
+font-size: 50px;
+font-weight: 400;
+line-height: 50px;
+}
+.black-subtitle {
+    color: white;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-top: 18px;
+}
+.black-input {
+    position: relative;
+}
+.black-form {
+    margin-top: 66px;
+}
+.black-input-field {
+    margin-bottom: 53px; 
+    box-sizing: border-box;
+    display: block;
+    width: 434px;
+    height: 59.25px;
+    color: currentcolor;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    resize: none;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: rgba(242, 242, 242, 0.5);
+    border-image: initial;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.black-input-name {
+    position: absolute;
+    background-color: rgb(41, 45, 50);
+    left: 18px;
+    top: -13px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(242, 242, 242);
+    padding: 0px 10px;
+}
+.black-input-field.textarea {
+    height: 145px;
+    margin-bottom: 0;
+}
+.black-input-button {
+    margin-top: 57px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.blue-ellipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #48A4EB; 
+    border-radius: 9999px;
+    height: 55px;
+    width: 55px;
+}
+.arrow {
+    color: white;
+    font-size: 18.74px;
+    font-family: Circe;
+    font-weight: 700;
+    line-height: 35.14px;
+}
+.button-content {
+    color: white;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 400;
+line-height: 30px;
 }
