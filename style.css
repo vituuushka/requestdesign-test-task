@@ -27,16 +27,30 @@ body {
 .header-items {
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
     margin-left: 60px;
     gap: 45px;
-    width: 534px;
     height: 18px;
 }
 .header-item {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 15px;
+}
+.header-item.header-main {
+    width: 68px;
+}
+.header-item.header-catalog {
+    width: 67px;
+}
+.header-item.header-news {
+    width: 70px;
+}
+.header-item.header-our-asc {
+    width: 71px;
+}
+.header-item.header-contacts {
+    width: 80px;
 }
 .header-item a {
     text-decoration: none;
