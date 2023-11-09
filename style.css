@@ -70,6 +70,9 @@ body {
 }
 .first-block {
     background-color: #F2F2F2;
+    background-image: url('./images/first-bg.png');
+    background-position: 260px 97px;
+    background-repeat: no-repeat;
     height: 683px;
 }
 .first-container {
@@ -103,8 +106,9 @@ body {
     font-weight: 300;
     font-size: 18px;
     color: #838383;
+    line-height: 24.06px;
     height: 24px;
-    width: 163px;
+    width: 164px;
 }
 .main-text-title {
     width: 446px;
@@ -113,12 +117,41 @@ body {
     font-size: 50px;
     color: #292D32;
     text-align: left;
-    padding-top: 15px;
+    padding-top: 22px;
 }
 .main-button {
     margin-top: 60px;
+}
+.main-button-text {
+    color:#292D32;
+}
+.button {
+    
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.blue-ellipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #48A4EB; 
+    border-radius: 9999px;
     height: 55px;
-    width: 150px;
+    width: 55px;
+}
+.arrow {
+    color: white;
+    font-size: 18.74px;
+    font-family: Circe;
+    font-weight: 700;
+    line-height: 35.14px;
+}
+.button-content {
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
 }
 .main-image {
     margin-top: 74px;
@@ -192,6 +225,9 @@ body {
 .catalog-button {
     margin-top: 46px;
 }
+.catalog-button-text {
+    color: #292D32;
+}
 .catalog-image-1 {
     width: 415px;
     height: 245px;
@@ -264,6 +300,9 @@ body {
 .our-advantages {
     margin-top: 180px;
     background-color: #F2F2F2;
+    background-image: url('./images/adv-bg.png');
+    background-position: 0px 152px;
+    background-repeat: no-repeat;
 }
 .advanvantages-top {
     display: flex;
@@ -292,25 +331,10 @@ font-weight: 400;
 line-height: 27px;
 }
 .adv-button {
-    display: flex;
-}
-.adv-btn-circle {
-    width: 55px;
-    height: 55px;
-    background-image: url(./images/adv-btn.png);
-    background-repeat: no-repeat;
-    /* text-align: center;
-    vertical-align: middle; */
-    color: white;
-font-size: 18.74px;
-font-weight: 700;
-line-height: 35.14px;
+    margin-top: 41px;
 }
 .adv-btn-text {
     color: #292D32;
-font-size: 16px;
-font-weight: 400;
-line-height: 30px;
 }
 .advantages-items {
     display: flex;
@@ -343,6 +367,7 @@ line-height: 30px;
     margin-top: 25px;
     margin-left: 30px;
     color: white;
+    font-family: Euclid Circular A, sans-serif;
 font-size: 22px;
 font-weight: 700;
 height: 56px;
@@ -352,6 +377,7 @@ height: 56px;
     margin-left: 30px;
     color: #B7B7B7;
 font-size: 16px;
+font-family: Euclid Circular A, sans-serif;
 font-weight: 300;
 width: 276px;
 height: 60px;
@@ -432,6 +458,12 @@ width: 721px;
     top: 219px;
     left: 0;
 }
+.news-white-small {
+    position: absolute;
+    z-index: 20;
+    top: 245px;
+    left: 306px;
+}
 .news-item-text {
     position: absolute;
     z-index: 20;
@@ -453,34 +485,24 @@ line-height: 21px;
 margin-top: 11px;
 width: 365px;
 }
-.news-white-small {
-    position: absolute;
-    z-index: 20;
-    top: 244px;
-    left: 309px;
-}
 .news-item-button {
     position: absolute;
-    z-index: 25;
-    top: 234px;
-    left: 323px;
+    z-index: 30;
+    top: 240px;
+    left: 315px;
 }
-button {
-    padding: 0;
-    border: none;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
+.news-btn-text {
+    color: #292D32;
 }
-.news-button-arrow {
-    position: absolute;
-    top: 15px;
-    left: 24px;
-    color: white;
-font-size: 18.74px;
-/* font-family: Circe; */
-font-weight: 700;
-line-height: 35.14px;
+.grey-ellipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #292D32; 
+    border-radius: 9999px; 
+    border: 12px white solid;
+    height: 55px;
+    width: 55px;
 }
 .news-item-data {
     color: #292D32;
@@ -513,7 +535,7 @@ font-weight: 300;
     position: relative;
     margin-top: 526px;
     height: 676px;
-    width: 1920px;
+    /* width: 1920px; */
     background-color: #EEEEEE;
     background-image: url('./images/contacts-bg.png');
     background-repeat: no-repeat;
@@ -673,32 +695,10 @@ margin-top: 18px;
 }
 .black-input-button {
     margin-top: 57px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
 }
 
-.blue-ellipse {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #48A4EB; 
-    border-radius: 9999px;
-    height: 55px;
-    width: 55px;
-}
-.arrow {
+.contacts-button-text {
     color: white;
-    font-size: 18.74px;
-    font-family: Circe;
-    font-weight: 700;
-    line-height: 35.14px;
-}
-.button-content {
-    color: white;
-font-size: 16px;
-font-weight: 400;
-line-height: 30px;
 }
 .footer {
     background-image: url('./images/footer-bg.png');
@@ -762,6 +762,15 @@ line-height: 21.39px;
 font-size: 18px;
 font-weight: 400;
 line-height: 27px;
+}
+.footer-adress {
+    width: 404px;
+}
+.footer-number {
+    width: 296px;
+}
+.footer-email {
+    width: 154px;
 }
 .footer-bottom-image {
     width: 94px;
