@@ -500,7 +500,10 @@ font-weight: 300;
     margin-top: 526px;
     height: 676px;
     width: 1920px;
-    background-image: url('./images/contacts-bg-image.png');
+    background-color: #EEEEEE;
+    background-image: url('./images/contacts-bg.png');
+    background-repeat: no-repeat;
+    background-position: 0 184px;
 }
 .contacts-up {
     position: absolute;
