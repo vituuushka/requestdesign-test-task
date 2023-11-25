@@ -7,7 +7,7 @@
   <li>выпадающее меню
   <img src="./images/readme-2.png" />
   </li>
-  <li>бургер-меню
+  <li>бургер-меню <br>
   <img src="./images/readme-3.png" />
   </li>
 </ul>
