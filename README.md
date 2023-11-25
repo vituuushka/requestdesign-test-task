@@ -5,3 +5,7 @@
   <li>выпадающее меню</li>
   <li>бургер-меню</li>
 </ul>
+<img src="./images/readme-1.png" />
+<img src="./images/readme-2.png" />
+<img src="./images/readme-3.png" />
+
